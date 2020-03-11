@@ -1,0 +1,86 @@
+.cont {
+	display: flex;
+	justify-content: space-around;
+}
+.clothes .t svg {
+	width: 70px;
+}
+.clothes .t {
+	display: flex;
+}
+.clothes .t div{
+	margin-left: 50px;
+}
+.clothes .maikebi div:nth-child(1) path{
+	fill: #67597A;
+}
+.clothes .maikebi div:nth-child(2) path{
+	fill: #544E61;
+}
+.clothes .maikebi div:nth-child(3) path{
+	fill: #6E8894;
+}
+.clothes .maikebi div:nth-child(4) path{
+	fill: #85BAA1;
+}
+.clothes .sharvlebi div:nth-child(1) path{
+	fill: #8789C0;
+}
+.clothes .sharvlebi div:nth-child(2) path{
+	fill: #45F0DF;
+}
+.clothes .sharvlebi div:nth-child(3) path{
+	fill: #C2CAE8;
+}
+.clothes .sharvlebi div:nth-child(4) path{
+	fill: #8380B6;
+}
+.clothes .fexsacmelebi div:nth-child(1) path{
+	fill: #D7FDEC;
+}
+.clothes .fexsacmelebi div:nth-child(2) path{
+	fill: #A9FBD7;
+}
+.clothes .fexsacmelebi div:nth-child(3) path{
+	fill: #B2E4DB;
+}
+.clothes .fexsacmelebi div:nth-child(4) path{
+	fill: #B0C6CE;
+}
+ path { transition: fill .3s ease; cursor: pointer;}
+
+
+@media only screen and (max-width: 860px) {
+	.clothes {
+		order: 3;
+	}
+	.clothes .t div {
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 670px) {
+	.clothes .maikebi {
+		flex-direction: column;
+	}
+	.clothes {
+		display: flex;
+	}
+	.clothes div {
+		margin-top: 5px;
+	}
+	.clothes .maikebi svg {
+		height: auto;
+	}
+	.clothes .sharvlebi {
+		flex-direction: column;
+	}
+	.clothes .sharvlebi svg {
+		height: auto;
+	}
+	.clothes .fexsacmelebi {
+		flex-direction: column;
+	}
+	.clothes .fexsacmelebi svg {
+		height: auto;
+	}
+}
